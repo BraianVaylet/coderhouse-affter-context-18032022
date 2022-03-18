@@ -34,8 +34,11 @@ const Item = ({
         align={'center'}
         justify={'flex-start'}
       >
-        <Text fontWeight={900}>{title}</Text>
-        <Text>${price}</Text>
+        <Text
+          fontWeight={900}
+          fontSize={'xl'}
+        >{title}</Text>
+        <Text>💲{price}</Text>
         <Text>STOCK: {stock}</Text>
       </Flex>
       <ItemCount stock={stock} onAdd={getCount}/>

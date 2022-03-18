@@ -1,3 +1,4 @@
+import Cart from 'components/Cart'
 import ItemList from 'components/ItemList'
 import Layout from 'components/Layout'
 import Navbar from 'components/Navbar'
@@ -7,6 +8,7 @@ function App () {
     <Layout>
       <Navbar />
       <ItemList />
+      <Cart />
     </Layout>
   )
 }

@@ -1,16 +1,17 @@
 import { Flex, Text, useColorMode, Button } from '@chakra-ui/react'
 
-const Title = ({ children }) => (
+const Title = ({ children, ...props }) => (
   <Text
     fontSize={'2xl'}
     fontWeight={300}
     letterSpacing={1}
+    {...props}
   >
     {children}
   </Text>
 )
 
-const IconTheme = ({ ...props }) => {
+const ThemeIcon = ({ ...props }) => {
   const { colorMode, toggleColorMode } = useColorMode()
   return (
     <Button
@@ -30,7 +31,7 @@ const IconTheme = ({ ...props }) => {
   )
 }
 
-const Cart = ({ counter = 0 }) => (
+const CartIcon = ({ counter = 0 }) => (
   <Title>
     🛒 ({counter})
   </Title>
@@ -45,15 +46,15 @@ const Navbar = () => {
       align={'center'}
       justify={'space-between'}
     >
-      <Title>
+      <Title fontWeight={'bold'}>
         🐤 DUCK STORE
       </Title>
       <Flex
         align={'center'}
         justify={'flex-end'}
       >
-        <IconTheme mr={5} />
-        <Cart />
+        <ThemeIcon mr={5} />
+        <CartIcon />
       </Flex>
     </Flex>
   )
