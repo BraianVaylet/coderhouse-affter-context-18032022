@@ -1,3 +1,29 @@
+# Affter Class - Context Api - Desafió Context
+
+Este es el código correspondiente al affter class de context dictado el 18/03/2022 para la comisión 25470 del curso de React de Coderhouse.
+
+## [DEMO](https://coderhouse-affter-context-18032022.vercel.app/)
+
+## [Documentación Context](https://es.reactjs.org/docs/context.html)
+
+## Desafío9: CartContext
+
+### Consigna
+
+Implementa React Context para mantener el estado de compra del user, siguiendo los detalles del manual.
+Aspectos a incluir en el entregable:
+
+Al clickear comprar en ItemDetail se debe guardar en el CartContext el producto y su cantidad en forma de objeto { name, price, quantity, etc. } dentro del array de productos agregados
+Detalle importante:
+
+CartContext debe tener la lógica incorporada de no aceptar duplicados y mantener su consistencia.
+Métodos recomendados:
+
+- **addItem(item, quantity)** // agregar cierta cantidad de un ítem al carrito
+- **removeItem(itemId)** // Remover un item del cart por usando su id
+- **clear()** // Remover todos los items
+- **isInCart(item)** // true|false
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
