@@ -1,5 +1,5 @@
-<p align="center" width="200">   
-  <p size="100">🐤</p>
+<p align="center" width="200">
+   <img align="center" width="100" src="https://raw.githubusercontent.com/BraianVaylet/coderhouse-affter-context-18032022/main/public/logo.png" />
 </p>
 
 # 🐤 Duck Store - (Affter Class - Context Api)
@@ -31,6 +31,8 @@ Métodos recomendados:
 ## Proyecto
 
 ![screenshot#1](https://raw.githubusercontent.com/BraianVaylet/coderhouse-affter-context-18032022/main/public/screen.png)
+
+---
 
 # Getting Started with Create React App
 
