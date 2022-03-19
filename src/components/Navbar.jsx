@@ -1,4 +1,6 @@
 import { Flex, Text, useColorMode, Button } from '@chakra-ui/react'
+import { TestContext } from 'context/TestContext'
+import { useContext } from 'react'
 
 const Title = ({ children, ...props }) => (
   <Text
@@ -31,11 +33,19 @@ const ThemeIcon = ({ ...props }) => {
   )
 }
 
-const CartIcon = ({ counter = 0 }) => (
-  <Title>
-    🛒 ({counter})
-  </Title>
-)
+const CartIcon = () => {
+  const { showMessage } = useContext(TestContext)
+  return (
+    <Button
+      variant={'ghost'}
+      onClick={showMessage}
+    >
+      <Title>
+        🛒
+      </Title>
+    </Button>
+  )
+}
 
 const Navbar = () => {
   return (

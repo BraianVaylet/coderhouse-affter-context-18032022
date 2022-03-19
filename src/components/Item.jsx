@@ -41,7 +41,14 @@ const Item = (product) => {
         <Text>STOCK: {product.stock}</Text>
       </Flex>
       <ItemCount stock={product.stock} onAdd={getCount}/>
-      <Button onClick={() => removeItem(product)}>Eliminar del 🛒</Button>
+      <Button
+        mt={2}
+        w={'100%'}
+        colorScheme={'red'}
+        onClick={() => removeItem(product)}
+      >
+        Eliminar del 🛒
+      </Button>
     </Flex>
   )
 }
