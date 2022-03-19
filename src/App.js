@@ -8,7 +8,7 @@ function App () {
     <Layout>
       <Navbar />
       <ItemList />
-      <Cart />
+        <Cart />
     </Layout>
   )
 }

@@ -1,20 +1,19 @@
-import { Flex, Image, Text } from '@chakra-ui/react'
+import { Button, Flex, Image, Text } from '@chakra-ui/react'
+import { CartContext } from 'context/CartContext'
+import { useContext } from 'react'
 import ItemCount from './ItemCount'
 
-const Item = ({
-  id,
-  img,
-  title,
-  price,
-  stock
-}) => {
+const Item = (product) => {
+  const { addItem, cart, removeItem } = useContext(CartContext)
   const getCount = count => {
-    console.log('count', count)
+    addItem(product, count)
   }
+
+  console.log('cart🛒', cart)
 
   return (
     <Flex
-      key={id}
+      key={product.id}
       direction={'column'}
       align={'center'}
       justify={'flex-start'}
@@ -24,8 +23,8 @@ const Item = ({
       mb={10}
     >
       <Image
-        src={img}
-        alt={title}
+        src={product.img}
+        alt={product.title}
         w={200}
         borderRadius={10}
       />
@@ -37,11 +36,12 @@ const Item = ({
         <Text
           fontWeight={900}
           fontSize={'xl'}
-        >{title}</Text>
-        <Text>💲{price}</Text>
-        <Text>STOCK: {stock}</Text>
+        >{product.title}</Text>
+        <Text>💲{product.price}</Text>
+        <Text>STOCK: {product.stock}</Text>
       </Flex>
-      <ItemCount stock={stock} onAdd={getCount}/>
+      <ItemCount stock={product.stock} onAdd={getCount}/>
+      <Button onClick={() => removeItem(product)}>Eliminar del 🛒</Button>
     </Flex>
   )
 }
