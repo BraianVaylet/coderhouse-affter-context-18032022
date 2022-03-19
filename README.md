@@ -26,7 +26,7 @@ Métodos recomendados:
 
 ## Proyecto
 
-![screenshot#1]()
+![screenshot#1](https://raw.githubusercontent.com/BraianVaylet/coderhouse-affter-context-18032022/main/public/screen.png)
 
 # Getting Started with Create React App
 
