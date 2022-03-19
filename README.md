@@ -1,14 +1,14 @@
-<p align="center" width="200">   
-  <p size="100">🐤</p>
+<p align="center" width="200">
+   <img align="center" width="100" src="https://raw.githubusercontent.com/BraianVaylet/coderhouse-affter-context-18032022/main/public/logo.png" />
 </p>
 
 # 🐤 Duck Store - (Affter Class - Context Api)
 
-Este es el código correspondiente al affter class de context dictado el 18/03/2022 para la comisión 25470 del curso de React de Coderhouse, donde se desarrollo en desafio 9.
+Este es el código correspondiente al affter class de context dictado el 18/03/2022 para la comisión 25470 del curso de React de [**Coderhouse**](https://www.coderhouse.com/), donde se desarrollo en desafio 9.
 
-## [DEMO](https://coderhouse-affter-context-18032022.vercel.app/)
+### 🚀 [DEMO](https://coderhouse-affter-context-18032022.vercel.app/)
 
-## [Documentación Context](https://es.reactjs.org/docs/context.html)
+### 📚 [Documentación Context](https://es.reactjs.org/docs/context.html)
 
 ## Desafío9: CartContext
 
@@ -31,6 +31,8 @@ Métodos recomendados:
 ## Proyecto
 
 ![screenshot#1](https://raw.githubusercontent.com/BraianVaylet/coderhouse-affter-context-18032022/main/public/screen.png)
+
+---
 
 # Getting Started with Create React App
 
