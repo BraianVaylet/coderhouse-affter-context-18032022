@@ -1,3 +1,7 @@
+<p align="center" width="200">   
+  <p size="100">🐤</p>
+</p>
+
 # 🐤 Duck Store - (Affter Class - Context Api)
 
 Este es el código correspondiente al affter class de context dictado el 18/03/2022 para la comisión 25470 del curso de React de Coderhouse, donde se desarrollo en desafio 9.
