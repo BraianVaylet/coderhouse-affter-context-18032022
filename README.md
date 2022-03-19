@@ -1,6 +1,10 @@
-# Affter Class - Context Api - Desafió Context
+<p align="center" width="200">   
+  <p size="100">🐤</p>
+</p>
 
-Este es el código correspondiente al affter class de context dictado el 18/03/2022 para la comisión 25470 del curso de React de Coderhouse.
+# 🐤 Duck Store - (Affter Class - Context Api)
+
+Este es el código correspondiente al affter class de context dictado el 18/03/2022 para la comisión 25470 del curso de React de Coderhouse, donde se desarrollo en desafio 9.
 
 ## [DEMO](https://coderhouse-affter-context-18032022.vercel.app/)
 
@@ -26,7 +30,7 @@ Métodos recomendados:
 
 ## Proyecto
 
-![screenshot#1]()
+![screenshot#1](https://raw.githubusercontent.com/BraianVaylet/coderhouse-affter-context-18032022/main/public/screen.png)
 
 # Getting Started with Create React App
 
